@@ -1,0 +1,36 @@
+# Ignorar dependencias de Node.js
+node_modules/
+
+# Archivos de logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+# ignorar módulos en subcarpetas
+**/node_modules/
+# Archivos de entorno
+.env
+.env.*
+
+# Salidas de pruebas y cobertura
+coverage/
+*.lcov
+
+# Archivos temporales y de backup
+*.tmp
+*.swp
+*.swo
+~*
+
+# Salidas de compilación
+dist/
+build/
+
+# Otros
+debug/
+logs/
+*.tgz
